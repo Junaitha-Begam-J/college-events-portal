@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>College Events Portal</title>
+
+    <!-- Connect CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>College Events Portal</h1>
+        <p>Welcome to our College Events Portal!</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Upcoming Events</h2>
+
+            <div>
+                <h3>Technical Symposium</h3>
+                <p>Date: 10 December 2026</p>
+                <p>Explore technology and innovation.</p>
+            </div>
+
+            <div>
+                <h3>Cultural Fest</h3>
+                <p>Date: 15 December 2026</p>
+                <p>Enjoy music, dance and fun activities.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Student Registration</h2>
+
+            <form id="registrationForm">
+
+                <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName"
+                    placeholder="Enter your name" required>
+
+                <br><br>
+
+                <label for="studentEmail">Email:</label>
+                <input type="email" id="studentEmail"
+                    placeholder="Enter your email" required>
+
+                <br><br>
+
+                <label for="eventName">Select Event:</label>
+
+                <select id="eventName" required>
+                    <option value="">Choose an event</option>
+                    <option value="Technical Symposium">
+                        Technical Symposium
+                    </option>
+                    <option value="Cultural Fest">
+                        Cultural Fest
+                    </option>
+                </select>
+
+                <br><br>
+
+                <button type="submit">Register Now</button>
+
+            </form>
+
+            <p id="message"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 College Events Portal</p>
+    </footer>
+
+    <!-- Connect JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
